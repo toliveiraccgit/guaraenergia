@@ -1,0 +1,10 @@
+@import url("../Componentes/Botoes/botaoDefault.css");
+@import url("./variaveis.css");
+@import url("./fonts.css");
+@import url("./normalize.css");
+@import url("./reset.css");
+
+/*----------------COMPONENTES--------------*/
+@import url("../Componentes/Cabecalho/cabecalho.css");
+@import url("../Componentes/Aside/aside.css");
+

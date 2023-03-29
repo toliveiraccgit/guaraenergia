@@ -1,0 +1,323 @@
+@media (min-width:1441px){
+    .descricao__intro__banner__estrategias{
+        width: 45.313rem;
+    }
+    .secao__conteudo__investir{
+        justify-content: space-between;
+    }
+    .container__dados__investir{
+        width: 22.451rem;
+    }
+}
+@media (max-width:1024px){
+    .secao__banner{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3.875rem;
+
+        padding-top: 3rem;
+        padding-left: 1.563rem;
+    }
+    .secao__conteudo__banner{
+        gap: 3rem;
+    }
+    .container__conteudo__banner{
+        gap: 1.625rem;
+    }
+    .titulo__secao__banner{
+        width: 85.65vw;
+        font-size: var(--font-30);
+        line-height: var(--line-40)
+    }
+    .descricao__secao__banner{
+        width: 85.65vw;
+        font-size: var(--font-16);
+        line-height: var(--line-25)
+    }
+    .imagem__banner{
+        width: 93vw;
+        height: auto;
+        align-self: flex-end;
+    }
+    .secao__banner__estrategias{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4.173rem;
+
+        padding-top: 3.5rem;
+        padding-left: 1.438rem;
+    }
+    .titulo__intro__banner__estrategias{
+        font-size: var(--font-24);
+        line-height: var(--line-33);
+        width: 16.688rem;
+    }
+    .descricao__intro__banner__estrategias{
+        display: none;
+    }
+    #seta__banner{
+        display: none;
+    }
+    #botao__agenda__banner{
+        width: 87vw;
+        justify-content: center;
+    }
+    .lista__estrategias{
+        flex-direction: column;
+        align-items: center;
+        width: 93.65vw;
+        text-align: center;
+        gap: 3.313rem;
+    }
+    .item__lista__estrategias{
+        text-align: center;
+
+        width: 17.563rem;
+    }
+    .item__lista__estrategias:nth-child(1){
+        padding-right: 0%;
+        padding-left: 0%;
+        background-image: none;
+    }
+    .item__lista__estrategias:nth-child(2){
+        padding-right: 0%;
+        padding-left: 0%;
+        background-image: none;
+    }
+    .item__lista__estrategias:nth-child(3){
+        padding-right: 0%;
+        padding-left: 0%;
+        background-image: none;
+    }
+    
+    .titulo__lista__estrategias{
+        align-self: center;
+
+    }
+    .secao__como{
+        padding-top: 5rem;
+    }
+    .titulo__como{
+        font-size: var(--font-24);
+        line-height: var(--line-33);
+        margin-bottom: 4.938rem;
+    }
+    #secao__tabs__desktop{
+        display: none;
+    }
+    #secao__tabs__mobile{
+        display: flex;
+    }
+    .secao__tabs{
+        width: 100vw;
+    }
+    .cabecalho__secao___tabs{
+        border-bottom: 1px solid #474952;
+        width: 100vw;
+        justify-content: space-between;
+
+        padding-right: 1.79rem;
+    }
+    .tabs__como{
+        border-bottom: 2px solid transparent;
+
+        width: 55%;
+
+        text-align: start;
+
+        padding-left: 1.438rem;
+        padding-bottom: 1.125rem;
+    }
+    .seta__tabs__como{
+        position: relative;
+        top: -.5rem;
+    }
+    .secao__cards___tabs{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4.313rem;
+    }
+    .titulo__conteudo__tabs{
+        font-size: var(--font-18);
+        line-height: var(--line-28);
+
+        width: 72vw;
+    }
+    .imagem__cards__tabs{
+        width: 100vw;
+    }
+    .secao__conteudo__api{
+        padding-top: 2rem;
+        padding-left: 1.4rem;
+        padding-right: 2.313rem;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: start;
+        gap: 2.5rem;
+        height: 32.75rem;
+
+        width: 85vw;
+
+        background-position: center bottom;
+        background-size: 120vw auto;
+    }
+    .container__conteudo__api{
+        flex-direction: column;
+        align-items: flex-start;    
+        gap: 1.5rem;
+    }
+    .titulo__conteudo__api{
+        width: 72.65vw;
+        font-size: var(--font-24);
+        line-height: var(--line-33);
+    }
+    .descricao__conteudo__api{
+        margin: 0%;
+
+        width: 72.65vw;
+        font-size: var(--font-16);
+        line-height: var(--line-25);
+    }
+    .span__descricao__api__mobile{
+        display: none;
+    }
+    #botao__agenda__api{
+        width: 73.65vw;
+        justify-content: center;
+    }
+    #seta__api__mobile{
+        display: none;
+    }
+    .secao__investir{
+        padding-top: 3.5rem;
+        padding-bottom: 3.125rem;
+    }
+    .secao__conteudo__investir{
+        padding-top: 0%;
+        padding-left: 0%;
+        padding-right: 0%;
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+
+        width: 85vw;
+    }
+    .container__banner__conteudo__investir{
+        width: 85vw;
+
+        background-color: #EFEFEF;
+
+        padding-top: 0%;
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-bottom: 3.5rem;
+
+        height: auto;
+
+        gap: 3.375rem;
+    }
+    .titulo__banner__conteudo{
+        width: 67.65vw;
+        font-size: var(--font-24);
+        line-height: var(--line-33);
+    }
+    #botao__agenda__investir{
+        width: 85vw;
+        justify-content: center;
+    }
+    #seta__agenda__investir{
+        display: none;
+    }
+    .container__dados__conteudo__investir{
+        flex-direction: column;
+        align-items: center;
+    }
+    .container__dados__investir{
+        width: 72vw;
+    }
+    .container__dados__investir:nth-child(1){
+        padding-right: 0%;
+        padding-bottom: 2rem;
+
+        background-image: url("../../../Assets/Home/divisor-horizontal.svg");
+        background-position: bottom left;
+        background-repeat: no-repeat;
+    }
+    .secao__conteudo__investir{
+        background-position-x: center;
+        background-position-y: 13rem;
+    }
+    .secao__plataforma__numeros{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        padding-bottom: 6.063rem;
+        padding-top: 3rem;
+    }
+    .container__plataforma__numeros{
+        flex-direction: column;
+        align-items: flex-start;
+
+        width: 85vw;
+    }
+    .secao__intro__plataforma__numeros{
+        width: 85vw;
+        gap: 1.5rem;
+    }
+    .titulo__intro__plataforma__numeros{
+        font-size: var(--font-24);
+        line-height: var(--line-33);
+
+        padding-right: 0%;
+        margin-bottom: 0%;
+    }
+    .descricao__intro__plataforma__numeros{
+        margin: 0%;
+        margin-bottom: 1.063rem;
+    }
+    .lista__numeros__plataforma{
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 6.25rem;
+
+        margin-top: 4.5rem;
+
+        width: 85vw;
+    }
+    .item__lista__numeros__plataforma{
+        width: 85vw;
+    }
+    .secao__praticas{
+        gap: 4.688rem;
+
+        padding-top: 3.75rem;
+        padding-bottom: 4.969rem;
+    }
+    .titulo__praticas{
+        text-align: center;
+
+        font-size: var(--font-24);
+        line-height: var(--line-33);
+
+        width: 85vw;
+
+        
+    }
+    .lista__praticas{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+
+        gap: 2rem;
+        row-gap: 3rem;
+    }
+    
+}
+@media (min-width:2110px){
+    .secao__banner{
+        justify-content: space-evenly;
+    }
+}

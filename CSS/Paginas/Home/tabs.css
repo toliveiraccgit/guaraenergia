@@ -1,0 +1,14 @@
+@media (min-width:0px){
+    /*-------------------TABS------------------*/
+    .active{
+        font-family: var(--inter);
+        font-size: var(--font-18);
+        font-weight: var(--semi-bold);
+        line-height: var(--line-28);
+        color: var(--white);
+
+        border-bottom: 2px solid var(--primary-100);
+
+        transition: all .15s ease-in-out;
+    }
+}

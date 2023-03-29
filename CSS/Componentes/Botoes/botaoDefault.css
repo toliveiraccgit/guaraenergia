@@ -1,0 +1,28 @@
+@media (min-width:0px){
+
+    .botao__default{
+        font-family: var(--GraphikBold);
+        font-size: var(--font-12);
+        font-weight: var(--semi-bold);
+        line-height: var(--line-25);
+        color: var(--branco);
+
+        background-color: var(--primario-verde);
+
+        padding-top: 0.688rem;
+        padding-right: 2.063rem;
+        padding-left: 2.063rem;
+        padding-bottom: 0.688rem;
+
+        border-radius: 90px;
+        border: none;
+
+        transition: all .2s ease-in-out;
+    }
+    .botao__default:hover{
+        background-color: var(--secundario-verde);
+
+        transition: all .2s ease-in-out;
+    }
+    
+}

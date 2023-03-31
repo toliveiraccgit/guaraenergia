@@ -192,6 +192,9 @@
         justify-content: space-between;
 
         background-color: #F4F2EC;
+
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
     }
     .imagem__como{
         width: 47%;
@@ -369,8 +372,8 @@
         width: 5.337rem;
 
         position:relative;
-        top: -22rem;
-        right: -45%;
+        top: -25rem;
+        right: -48%;
 
         background-color: transparent;
         border: none;
@@ -654,7 +657,9 @@
       background-color: var(--preto);
       position: relative;
       display: flex;
-      left: -4rem;
+      left: -4.5rem;
+      padding-top: .8rem;
+      padding-bottom: .8rem;
     }
     /*---------------Rodape--------------*/
     .rodape{

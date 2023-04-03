@@ -149,6 +149,7 @@
         font-family: var(--MontrealMedium);
         font-size: 18px;
         font-weight: 500;
+        line-height: 26px;
 
         margin: 0%;
 
@@ -163,9 +164,10 @@
     }
     .texto__sobre{
         margin: 0%;
-        font-family: var(--MontrealMedium);
+        font-family: var(--MontrealRegular);
         font-size: 25px;
         font-weight: 500;
+        line-height: 48px;
     }
     /*------------------Como----------------*/
     .secao__como{
@@ -245,7 +247,7 @@
         
     }
     .titulo__item__lista__texto__conteudo__como{
-        font-family: var(--MontrealMedium);
+        font-family: var(--MontrealRegular);
         font-size: 20px;
         font-weight: 500;
         line-height: 35px;
@@ -259,6 +261,7 @@
         font-family: var(--MontrealMedium);
         font-size: 16px;
         font-weight: 500;
+        line-height: 26px;
 
         margin: 0%;
 
@@ -643,10 +646,10 @@
 
         background-color: var(--branco);
 
-        padding-top: 0.688rem;
+        padding-top: 1rem;
         padding-right: 10rem;
         padding-left: 2.063rem;
-        padding-bottom: 0.688rem;
+        padding-bottom: 1rem;
 
         border-radius: 90px;
         border: none;
@@ -658,8 +661,7 @@
       position: relative;
       display: flex;
       left: -4.5rem;
-      padding-top: .8rem;
-      padding-bottom: .8rem;
+
     }
     /*---------------Rodape--------------*/
     .rodape{

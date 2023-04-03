@@ -1,14 +1,3 @@
-@media (min-width:1441px){
-    .descricao__intro__banner__estrategias{
-        width: 45.313rem;
-    }
-    .secao__conteudo__investir{
-        justify-content: space-between;
-    }
-    .container__dados__investir{
-        width: 22.451rem;
-    }
-}
 @media (max-width:1024px){
     .secao__banner{
         display: flex;

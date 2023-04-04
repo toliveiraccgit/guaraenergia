@@ -160,7 +160,7 @@
         margin: 0%;
     }
     .descricao__sobre{
-        font-family: var(--MontrealMedium);
+        font-family: var(--MontrealRegular);
         font-size: 18px;
         font-weight: 500;
         line-height: 26px;

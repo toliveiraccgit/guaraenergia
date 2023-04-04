@@ -1,10 +1,8 @@
 @media (min-width:0px){
 
     .botao__default{
-        font-family: var(--GraphikBold);
-        font-size: var(--font-12);
-        font-weight: var(--semi-bold);
-        line-height: var(--line-25);
+        font-family: var(--MontrealMedium);
+        font-size: var(--font-14);
         color: var(--branco);
 
         background-color: var(--primario-verde);

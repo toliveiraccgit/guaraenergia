@@ -70,6 +70,7 @@
         <link rel="stylesheet" href="./CSS/Base/fonts.css">
         <link rel="stylesheet" href="./CSS/Base/reset.css">
         <link rel="stylesheet" href="./CSS/Paginas/Home/home.css">
+        <link rel="stylesheet" href="./CSS/Paginas/Home/homeResponsiva.css">
         <title>Home | NOS</title>
         <link rel="shortcut icon" href="./Assets/Imagens/Vetor/VetorShortcut.svg" type="image/x-icon"/>
 
@@ -83,7 +84,7 @@
 
                 <header class="cabecalho">
 
-                    <svg width="110" height="59" viewBox="0 0 110 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg id="logo__desktop" width="110" height="59" viewBox="0 0 110 59" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="29.5" cy="29.5" r="29.5" fill="#064A3C"/>
                         <mask id="mask0_2561_1489" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="5" y="5" width="50" height="49">
                         <ellipse cx="24.3176" cy="23.9189" rx="24.3176" ry="23.9189" transform="matrix(-1 0 0 1 54.2163 5.58105)" fill="#FECD45"/>
@@ -93,9 +94,20 @@
                         </g>
                         <path d="M71.7094 25.13H74.5714L79.9894 34.436V25.13H82.1674V38H79.6834L73.8874 28.136V38H71.7094V25.13ZM91.0958 36.254C91.7078 36.254 92.2538 36.146 92.7338 35.93C93.2258 35.702 93.6398 35.384 93.9758 34.976C94.3238 34.568 94.5878 34.082 94.7678 33.518C94.9598 32.942 95.0558 32.306 95.0558 31.61V31.466C95.0558 30.806 94.9658 30.194 94.7858 29.63C94.6058 29.066 94.3418 28.58 93.9938 28.172C93.6578 27.764 93.2378 27.446 92.7338 27.218C92.2418 26.978 91.6838 26.858 91.0598 26.858C90.4238 26.858 89.8598 26.972 89.3678 27.2C88.8758 27.416 88.4558 27.728 88.1078 28.136C87.7598 28.544 87.4958 29.03 87.3158 29.594C87.1358 30.158 87.0458 30.788 87.0458 31.484V31.628C87.0458 32.336 87.1478 32.972 87.3518 33.536C87.5558 34.1 87.8378 34.586 88.1978 34.994C88.5578 35.402 88.9838 35.714 89.4758 35.93C89.9678 36.146 90.5078 36.254 91.0958 36.254ZM91.0598 38.18C90.0758 38.18 89.1818 38.018 88.3778 37.694C87.5738 37.358 86.8898 36.896 86.3258 36.308C85.7618 35.72 85.3238 35.03 85.0118 34.238C84.6998 33.434 84.5438 32.57 84.5438 31.646V31.502C84.5438 30.566 84.6998 29.696 85.0118 28.892C85.3358 28.088 85.7858 27.398 86.3618 26.822C86.9378 26.234 87.6218 25.778 88.4138 25.454C89.2178 25.118 90.0998 24.95 91.0598 24.95C92.0198 24.95 92.8958 25.112 93.6878 25.436C94.4798 25.76 95.1578 26.21 95.7218 26.786C96.2978 27.362 96.7418 28.046 97.0538 28.838C97.3778 29.63 97.5398 30.5 97.5398 31.448V31.592C97.5398 32.528 97.3838 33.398 97.0718 34.202C96.7718 35.006 96.3338 35.702 95.7578 36.29C95.1938 36.878 94.5098 37.34 93.7058 37.676C92.9138 38.012 92.0318 38.18 91.0598 38.18ZM104.121 38.18C103.245 38.18 102.489 38.078 101.853 37.874C101.229 37.658 100.707 37.37 100.287 37.01C99.8785 36.638 99.5665 36.2 99.3505 35.696C99.1345 35.18 99.0025 34.616 98.9545 34.004H101.259C101.295 34.328 101.361 34.634 101.457 34.922C101.565 35.21 101.721 35.462 101.925 35.678C102.141 35.894 102.423 36.068 102.771 36.2C103.131 36.32 103.581 36.38 104.121 36.38C104.841 36.38 105.423 36.2 105.867 35.84C106.323 35.48 106.551 35 106.551 34.4C106.551 34.1 106.509 33.848 106.425 33.644C106.341 33.428 106.197 33.248 105.993 33.104C105.789 32.948 105.513 32.816 105.165 32.708C104.817 32.6 104.385 32.504 103.869 32.42C103.101 32.312 102.429 32.174 101.853 32.006C101.289 31.826 100.821 31.592 100.449 31.304C100.077 31.004 99.7945 30.638 99.6025 30.206C99.4225 29.774 99.3325 29.258 99.3325 28.658C99.3325 28.13 99.4405 27.644 99.6565 27.2C99.8725 26.744 100.173 26.354 100.557 26.03C100.953 25.694 101.427 25.436 101.979 25.256C102.531 25.064 103.143 24.968 103.815 24.968C105.207 24.968 106.299 25.28 107.091 25.904C107.895 26.528 108.363 27.458 108.495 28.694H106.299C106.179 28.01 105.921 27.518 105.525 27.218C105.129 26.918 104.559 26.768 103.815 26.768C103.083 26.768 102.531 26.924 102.159 27.236C101.787 27.548 101.601 27.956 101.601 28.46C101.601 28.724 101.631 28.958 101.691 29.162C101.763 29.354 101.895 29.528 102.087 29.684C102.291 29.828 102.561 29.954 102.897 30.062C103.245 30.17 103.701 30.266 104.265 30.35C105.021 30.458 105.681 30.596 106.245 30.764C106.821 30.932 107.301 31.166 107.685 31.466C108.081 31.766 108.375 32.138 108.567 32.582C108.759 33.014 108.855 33.554 108.855 34.202C108.855 34.766 108.741 35.288 108.513 35.768C108.285 36.248 107.961 36.668 107.541 37.028C107.133 37.388 106.635 37.67 106.047 37.874C105.471 38.078 104.829 38.18 104.121 38.18Z" fill="white"/>
                         <rect x="71" y="42" width="37" height="2" fill="white"/>
+                    </svg>
+
+                    <svg id="logo__mobile" width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="29.5" cy="29.5" r="29.5" fill="#064A3C"/>
+                        <mask id="mask0_2785_393" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="5" y="5" width="50" height="49">
+                        <ellipse cx="24.3176" cy="23.9189" rx="24.3176" ry="23.9189" transform="matrix(-1 0 0 1 54.2163 5.58105)" fill="#FECD45"/>
+                        </mask>
+                        <g mask="url(#mask0_2785_393)">
+                        <rect width="57.5516" height="56.6081" transform="matrix(-1 0 0 1 30.7094 2.39209)" fill="#FECD45"/>
+                        </g>
                         </svg>
+                        
                 
-                <section class="secao__links__cabecalho">
+                <section class="secao__links__cabecalho" id="links__cabecalho__desktop">
 
                     <ul class="lista__links__cabecalho">
 
@@ -103,13 +115,13 @@
 
                         <a href="#secao__faq" class="link__cabecalho">PORQUE CONTRATAR</a>
 
-                        <a href="#secao__aprenda" class="link__cabecalho">COMO FUNCIONA</a>
+                        <a href="#secao__aprenda" class="link__cabecalho">nos FUNCIONA</a>
 
                     </ul>
 
                 </section>
 
-                <section class="secao__botoes__cabecalho">
+                <section class="secao__botoes__cabecalho" id="links__cabecalho__desktop">
 
                     <a href="#secao__faq" class="link__botoes__cabecalho">DÚVIDAS</a>
 
@@ -117,15 +129,31 @@
 
                 </section>
 
+                <div class="container__botao__mobile">
+
+                    <svg width="39" height="20" viewBox="0 0 39 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="39" height="2" fill="#FDFEFF"/>
+                        <rect y="18" width="39" height="2" fill="#FDFEFF"/>
+                        </svg>
+                        
+
+                </div>
+
                 </header>
 
                 <secion class="secao__conteudo__banner">
 
                     <h1 class="titulo__conteudo__banner">MUDE</h1>
 
-                    <h1 class="titulo__conteudo__banner">PARA </br> O FUTURO</h1>
+                    <h1 class="titulo__conteudo__banner" id="titulo__conteudo__right">PARA </br> O FUTURO</h1>
 
                 </secion>
+
+                <div class="container__banner__botao__mobile">
+
+                    <button class="botao__default botao__banner__mobile">EU QUERO FAZER PARTE</button>
+
+                </div>
 
                 <div class="container__botao__explore">
 
@@ -143,7 +171,7 @@
 
                 <section class="secao__titulo__sobre  anime-first">
 
-                    <h3 class="titulo__sobre">NOS ENERGIA</h3>
+                    <h3 class="titulo__sobre">GUARÁ ENERGIA ENERGIA</h3>
 
                     <p class="descricao__sobre">Nosso propósito é dar poder às pessoas e acelerar a transição para a energia sustentável.</p>
 
@@ -157,54 +185,54 @@
 
                     <p class="texto__sobre">Acreditamos que o futuro é feito de decisões que tomamos agora e decidimos transformar a experiência com energia no Brasil.</p>
 
-                    <p class="texto__sobre">Com a NOS, você sempre - e é sempre mesmo - vai ter uma energia mais barata, mais sustentável e mais digital pro seu negócio.</p>
+                    <p class="texto__sobre">Com a GUARÁ ENERGIA, você sempre - e é sempre mesmo - vai ter uma energia mais barata, mais sustentável e mais digital pro seu negócio.</p>
                         
 
                 </section>
 
             </section>
 
-            <section class="secao__como">
+            <section class="secao__nos">
 
-                <div class="secao__container__como">
+                <div class="secao__container__nos">
 
-                    <section class="secao__conteudo__como">
+                    <section class="secao__conteudo__nos">
 
                         <img class="imagem__como anime-first" src="./Assets/Imagens/Imagem/ImagemComo.png" alt="Imagem">
 
-                        <section class="secao__texto__conteudo__como anime-second">
+                        <section class="secao__texto__conteudo__nos anime-second">
 
-                            <div class="container__texto__conteudo__como">
+                            <div class="container__texto__conteudo__nos">
 
-                                <h4 class="titulo__texto__conteudo__como">COMO FUNCIONA</h4>
+                                <h4 class="titulo__texto__conteudo__nos">COMO FUNCIONA</h4>
 
-                                <p class="descricao__texto__conteudo__como">Simplificamos o acesso à energia sustentável</p>
+                                <p class="descricao__texto__conteudo__nos">Simplificamos o acesso à energia sustentável</p>
 
                             </div>
 
-                            <ul class="lista__texto__conteudo__como">
+                            <ul class="lista__texto__conteudo__nos">
 
-                                <li class="item__lista__texto__conteudo_como">
+                                <li class="item__lista__texto__conteudo_nos">
 
-                                    <h5 class="titulo__item__lista__texto__conteudo__como borda__top borda__bottom">1.</br>Cadastre-se</h5>
+                                    <h5 class="titulo__item__lista__texto__conteudo__nos borda__top borda__bottom">1.</br>Cadastre-se</h5>
 
-                                    <p class="descricao__item__lista__texto__conteudo__como borda__top borda__bottom">É só preencher as informações sobre seu negócio e nós vamos calcular quanto de energia sustentável você precisa receber mensalmente.</p>
-
-                                </li>
-
-                                <li class="item__lista__texto__conteudo_como">
-
-                                    <h5 class="titulo__item__lista__texto__conteudo__como borda__bottom">2.</br>Contrate online</h5>
-
-                                    <p class="descricao__item__lista__texto__conteudo__como borda__bottom">Todo o processo digital, sem nenhuma burocracia. Ah, nosso atendimento fica disponível a todo momento pra te ajudar no que precisar!</p>
+                                    <p class="descricao__item__lista__texto__conteudo__nos borda__top borda__bottom">É só preencher as informações sobre seu negócio e nós vamos calcular quanto de energia sustentável você precisa receber mensalmente.</p>
 
                                 </li>
 
-                                <li class="item__lista__texto__conteudo_como">
+                                <li class="item__lista__texto__conteudo_nos">
 
-                                    <h5 class="titulo__item__lista__texto__conteudo__como">3.</br>Economize todo mês</h5>
+                                    <h5 class="titulo__item__lista__texto__conteudo__nos borda__bottom">2.</br>Contrate online</h5>
 
-                                    <p class="descricao__item__lista__texto__conteudo__como">Você recebe a sua conta NOS referente à energia sustentável e, para a distribuidora, você paga apenas tarifas e impostos.
+                                    <p class="descricao__item__lista__texto__conteudo__nos borda__bottom">Todo o processo digital, sem nenhuma burocracia. Ah, nosso atendimento fica disponível a todo momento pra te ajudar no que precisar!</p>
+
+                                </li>
+
+                                <li class="item__lista__texto__conteudo_nos">
+
+                                    <h5 class="titulo__item__lista__texto__conteudo__nos">3.</br>Economize todo mês</h5>
+
+                                    <p class="descricao__item__lista__texto__conteudo__nos">Você recebe a sua conta referente à energia sustentável e, para a distribuidora, você paga apenas tarifas e impostos.
                                     </p>
 
                                 </li>
@@ -213,9 +241,16 @@
 
                         </section>
 
+                        <div class="container__nos__botao__mobile">
+
+                            <button class="botao__default botao__nos__mobile">EU QUERO FAZER PARTE</button>
+        
+                        </div>
+
+
                     </section>
 
-                    <button class="botao__default botao__conteudo__como">
+                    <button class="botao__default botao__conteudo__nos">
 
                         EU QUERO CONTRATAR
 
@@ -223,17 +258,17 @@
 
                 </div>
 
-                <div class="secao__rodape__como">
+                <div class="secao__rodape__nos">
 
-                    <section class="secao__conteudo__rodape__como anime-first">
+                    <section class="secao__conteudo__rodape__nos anime-first">
 
-                        <h6 class="titulo__conteudo__rodape__como">COMO GERAMOS ENERGIA</h6>
+                        <h6 class="titulo__conteudo__rodape__nos">COMO GERAMOS ENERGIA</h6>
 
-                        <p class="descricao__conteudo__rodape__como">Te libertamos da sua distribuidora, trazendo mais economia. Zero custos ou taxas extras, sem nenhuma obra ou mudança na sua instalação elétrica.</p>
+                        <p class="descricao__conteudo__rodape__nos">Te libertamos da sua distribuidora, trazendo mais economia. Zero custos ou taxas extras, sem nenhuma obra ou mudança na sua instalação elétrica.</p>
 
                     </section>
 
-                    <button class="botao__default botao__conteudo__rodape__como anime-second">FALE COM A GENTE</button>
+                    <button class="botao__default botao__conteudo__rodape__nos anime-second">FALE COM A GENTE</button>
 
                 </div>
 
@@ -251,7 +286,7 @@
 
                             <h7 class="titulo__item__lista__video">Módulos Solares</h7>
 
-                            <p class="descricao__item__lista__video">Imagine um grande estádio de futebol cheio de placas solares produzindo energia sustentável para centenas de estabelecimentos. A Faro Energy gera energia sustentável para a NOS.</p>
+                            <p class="descricao__item__lista__video">Imagine um grande estádio de futebol cheio de placas solares produzindo energia sustentável para centenas de estabelecimentos. A Faro Energy gera energia sustentável para a GUARÁ ENERGIA.</p>
 
                         </li>
 
@@ -281,17 +316,7 @@
 
                 <section class="container__video">
 
-                    <img src="./Assets/Imagens/Imagem/ImagemVideo.png" alt="" class="video">
-
-                    <button class="botao__play__video">
-
-                        <svg width="86" height="83" viewBox="0 0 86 83" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M43.0288 0C19.5518 0 0.332031 18.6795 0.332031 41.5C0.332031 64.3205 19.5502 83 43.0288 83C66.5075 83 85.7256 64.3205 85.7256 41.5C85.7256 18.6795 66.5075 0 43.0288 0ZM43.0288 14.5C21.5324 14.5 44.0577 43.9577 44.0577 23.0623C44.0577 2.16682 21.5308 26 43.0288 26C64.5269 26 44.0577 2.16682 44.0577 23.0623C44.0577 43.9577 64.5269 14.5 43.0288 14.5Z" fill="#FFD233"/>
-                            <path d="M55.6735 40.4204L38.4104 28.5604C37.9027 28.1968 36.4519 28.1968 36.3071 29.6517V53.2992C36.4524 54.8272 37.9028 54.8272 38.4104 54.3905L55.6 42.603C56.1082 42.312 56.6883 41.2207 55.6729 40.4204H55.6735ZM38.991 50.8254V32.198L52.5552 41.5117L38.991 50.8254Z" fill="#064A3C"/>
-                            </svg>
-                            
-
-                    </button>
+                    <img src="./Assets/Imagens/Imagem/ImagemVideoPlay.png" alt="" class="video">
 
                 </section>
 
@@ -376,13 +401,13 @@
 
                         <button class="botao__lista__faq accordion__faq">
 
-                            Posso ter energia NOS na minha casa e empresa?
+                            Posso ter energia GUARÁ ENERGIA na minha casa e empresa?
 
                         </button>
 
                         <section class="conteudo__lista__faq panel">
 
-                            <p class="descricao__lista__faq">Por enquanto, oferecemos energia sustentável apenas para pequenos e médios negócios. Se você mora em um prédio, seu condomínio pode receber energia NOS, é só nos indicar para o seu síndico ou administradora. Mas, se você mora em casa, nos acompanhe nas redes sociais que em breve teremos novidades!</p>
+                            <p class="descricao__lista__faq">Por enquanto, oferecemos energia sustentável apenas para pequeGUARÁ ENERGIA e médios negócios. Se você mora em um prédio, seu condomínio pode receber energia GUARÁ ENERGIA, é só GUARÁ ENERGIA indicar para o seu síndico ou administradora. Mas, se você mora em casa, GUARÁ ENERGIA acompanhe nas redes sociais que em breve teremos novidades!</p>
 
                         </section>
 
@@ -392,13 +417,13 @@
 
                         <button class="botao__lista__faq accordion__faq">
 
-                            Quais cidades NOS já está disponível?
+                            Quais cidades GUARÁ ENERGIA já está disponível?
 
                         </button>
 
                         <section class="conteudo__lista__faq panel">
 
-                            <p class="descricao__lista__faq">Por enquanto, oferecemos energia sustentável apenas para pequenos e médios negócios. Se você mora em um prédio, seu condomínio pode receber energia NOS, é só nos indicar para o seu síndico ou administradora. Mas, se você mora em casa, nos acompanhe nas redes sociais que em breve teremos novidades!</p>
+                            <p class="descricao__lista__faq">Por enquanto, oferecemos energia sustentável apenas para pequeGUARÁ ENERGIA e médios negócios. Se você mora em um prédio, seu condomínio pode receber energia GUARÁ ENERGIA, é só GUARÁ ENERGIA indicar para o seu síndico ou administradora. Mas, se você mora em casa, GUARÁ ENERGIA acompanhe nas redes sociais que em breve teremos novidades!</p>
 
                         </section>
 
@@ -414,7 +439,7 @@
 
                         <section class="conteudo__lista__faq panel">
 
-                            <p class="descricao__lista__faq">Por enquanto, oferecemos energia sustentável apenas para pequenos e médios negócios. Se você mora em um prédio, seu condomínio pode receber energia NOS, é só nos indicar para o seu síndico ou administradora. Mas, se você mora em casa, nos acompanhe nas redes sociais que em breve teremos novidades!</p>
+                            <p class="descricao__lista__faq">Por enquanto, oferecemos energia sustentável apenas para pequeGUARÁ ENERGIA e médios negócios. Se você mora em um prédio, seu condomínio pode receber energia GUARÁ ENERGIA, é só GUARÁ ENERGIA indicar para o seu síndico ou administradora. Mas, se você mora em casa, GUARÁ ENERGIA acompanhe nas redes sociais que em breve teremos novidades!</p>
 
                         </section>
 
@@ -430,7 +455,7 @@
 
                         <section class="conteudo__lista__faq panel">
 
-                            <p class="descricao__lista__faq">Por enquanto, oferecemos energia sustentável apenas para pequenos e médios negócios. Se você mora em um prédio, seu condomínio pode receber energia NOS, é só nos indicar para o seu síndico ou administradora. Mas, se você mora em casa, nos acompanhe nas redes sociais que em breve teremos novidades!</p>
+                            <p class="descricao__lista__faq">Por enquanto, oferecemos energia sustentável apenas para pequeGUARÁ ENERGIA e médios negócios. Se você mora em um prédio, seu condomínio pode receber energia GUARÁ ENERGIA, é só GUARÁ ENERGIA indicar para o seu síndico ou administradora. Mas, se você mora em casa, GUARÁ ENERGIA acompanhe nas redes sociais que em breve teremos novidades!</p>
 
                         </section>
 
@@ -446,7 +471,7 @@
 
                         <section class="conteudo__lista__faq panel">
 
-                            <p class="descricao__lista__faq">Por enquanto, oferecemos energia sustentável apenas para pequenos e médios negócios. Se você mora em um prédio, seu condomínio pode receber energia NOS, é só nos indicar para o seu síndico ou administradora. Mas, se você mora em casa, nos acompanhe nas redes sociais que em breve teremos novidades!</p>
+                            <p class="descricao__lista__faq">Por enquanto, oferecemos energia sustentável apenas para pequeGUARÁ ENERGIA e médios negócios. Se você mora em um prédio, seu condomínio pode receber energia GUARÁ ENERGIA, é só GUARÁ ENERGIA indicar para o seu síndico ou administradora. Mas, se você mora em casa, GUARÁ ENERGIA acompanhe nas redes sociais que em breve teremos novidades!</p>
 
                         </section>
 
@@ -475,7 +500,7 @@
 
                 <section class="secao__form__contato anime-second">
 
-                    <p class="descricao__form__contato">Fique por dentro da velocidade de crescimento mais recente da NOS</p>
+                    <p class="descricao__form__contato">Fique por dentro da velocidade de crescimento mais recente da GUARÁ ENERGIA</p>
 
                     <form action="#" class="form__contato">
 
@@ -621,7 +646,7 @@
                     // windowHeight pega a altura total da janela do browser
                     windowHeight = $(window).height(),
                     
-                    // offset é definido a partir da altura da janela, menos um quarto dessa atlura. Isso vai garantir que o browser não fique com um espaço grande em branco
+                    // offset é definido a partir da altura da janela, meGUARÁ ENERGIA um quarto dessa atlura. Isso vai garantir que o browser não fique com um espaço grande em branco
                     offset = windowHeight - (windowHeight / 6);
 
             // animeScroll é a função responsável por adicionar a classe animationClass ao elemento da página.
@@ -682,7 +707,7 @@
                         // windowHeight pega a altura total da janela do browser
                         windowHeight = $(window).height(),
                         
-                        // offset é definido a partir da altura da janela, menos um quarto dessa atlura. Isso vai garantir que o browser não fique com um espaço grande em branco
+                        // offset é definido a partir da altura da janela, meGUARÁ ENERGIA um quarto dessa atlura. Isso vai garantir que o browser não fique com um espaço grande em branco
                         offset = windowHeight - (windowHeight / 6);
     
                 // animeScroll é a função responsável por adicionar a classe animationClass ao elemento da página.

@@ -4,6 +4,9 @@
         border: none;
     }
     /*-----------------Banner----------------*/
+    #logo__mobile{
+        display: none;
+    }
     .secao__banner{
         display: flex;
         flex-direction: column;
@@ -74,6 +77,15 @@
 
         transition: all .15s ease-in-out;
     }
+    .container__botao__mobile{
+        display: none;
+    }
+    .container__banner__botao__mobile{
+        display: none;
+    }
+    .container__nos__botao__mobile{
+        display: none;
+    }
     .secao__conteudo__banner{
         display: flex;
         flex-direction: row;
@@ -121,6 +133,7 @@
             top: 1rem;
         }
     }
+    
     /*---------------Sobre--------------*/
     .secao__sobre{
         display: flex;
@@ -169,8 +182,8 @@
         font-weight: 500;
         line-height: 48px;
     }
-    /*------------------Como----------------*/
-    .secao__como{
+    /*------------------nos----------------*/
+    .secao__nos{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -180,7 +193,7 @@
         padding-top: 7.313rem;
 
     }
-    .secao__container__como{
+    .secao__container__nos{
         display: flex;
         flex-direction: column;
         width: 91vw;
@@ -188,20 +201,21 @@
 
         border-radius: 15px 15px 0px 0px;
     }
-    .secao__conteudo__como{
+    .secao__conteudo__nos{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        gap: 3rem;
 
         background-color: #F4F2EC;
 
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
     }
-    .imagem__como{
+    .imagem__nos{
         width: 47%;
     }
-    .secao__texto__conteudo__como{
+    .secao__texto__conteudo__nos{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -211,20 +225,20 @@
         padding-right: 3.75rem;
         padding-bottom: 2.438rem;
     }
-    .container__texto__conteudo__como{
+    .container__texto__conteudo__nos{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         gap: 1.813rem;
         margin-bottom: 4.063rem;
     }
-    .titulo__texto__conteudo__como{
+    .titulo__texto__conteudo__nos{
         font-family: var(--MontrealMedium);
         font-size: 25px;
         font-weight: 500;
         margin: 0%;
     }
-    .descricao__texto__conteudo__como{
+    .descricao__texto__conteudo__nos{
         font-family: var(--MontrealMedium);
         font-size: 18px;
         font-weight: 500;
@@ -233,12 +247,12 @@
 
         color: #6A6A6A;
     }
-    .lista__texto__conteudo__como{
+    .lista__texto__conteudo__nos{
         display: flex;
         flex-direction: column;
         width: 100%;
     }
-    .item__lista__texto__conteudo_como{
+    .item__lista__texto__conteudo_nos{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -246,7 +260,7 @@
         
         
     }
-    .titulo__item__lista__texto__conteudo__como{
+    .titulo__item__lista__texto__conteudo__nos{
         font-family: var(--MontrealRegular);
         font-size: 20px;
         font-weight: 500;
@@ -257,7 +271,7 @@
         padding-top: 1.75rem;
         padding-bottom: 5.625rem;
     }
-    .descricao__item__lista__texto__conteudo__como{
+    .descricao__item__lista__texto__conteudo__nos{
         font-family: var(--MontrealMedium);
         font-size: 16px;
         font-weight: 500;
@@ -277,12 +291,12 @@
     .borda__top{
         border-top: 0.7px solid #717171;
     }
-    .botao__conteudo__como{
+    .botao__conteudo__nos{
         border-radius: 15px;
         position: relative;
         top: -1rem;
     }
-    .secao__rodape__como{
+    .secao__rodape__nos{
         display: flex;
         flex-direction: row;
         align-items: flex-end;
@@ -295,18 +309,18 @@
 
         border-bottom: 0.7px solid #717171;
     }
-    .secao__conteudo__rodape__como{
+    .secao__conteudo__rodape__nos{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         gap: 3.75rem;
     }
-    .titulo__conteudo__rodape__como{
+    .titulo__conteudo__rodape__nos{
         font-family: var(--MontrealRegular);
         font-size: 25px;
         margin: 0%;
     }
-    .descricao__conteudo__rodape__como{
+    .descricao__conteudo__rodape__nos{
         font-family: var(--MontrealRegular);
         font-size: 18px;
         line-height: 26px;
@@ -326,6 +340,8 @@
         width: 100vw;
 
         padding-top: 3.75rem;
+        padding-bottom: 6.875rem;
+        
     }
     .secao__lista__conteudo__video{
         display: flex;
@@ -394,6 +410,10 @@
         align-items: flex-start;
         gap: 3.75rem;
         width: 91vw;
+
+        padding-top: 6.875rem;
+
+        border-top: 0.7px solid #717171;
     }
     .titulo__cabecalho__aprenda{
         font-family: var(--MontrealRegular);
@@ -542,7 +562,7 @@
 
         transition: all .2s ease-in-out;
 
-        padding-bottom: .5rem;
+        padding-bottom: 1rem;
     }
     .descricao__lista__faq{
         width: 39.313rem;
@@ -722,4 +742,9 @@
 
     }
     
+}
+@media (min-width:1440px){
+    .botao__item__noticias__aprenda{
+        width: 23.375rem;
+    }
 }

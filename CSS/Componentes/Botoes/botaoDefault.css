@@ -26,3 +26,12 @@
     }
     
 }
+
+@media (min-width:0px) and (max-width:1024px){
+    .botao__default{
+
+        padding-top: 1.38rem;
+        padding-bottom: 1.38rem;
+
+    }
+}

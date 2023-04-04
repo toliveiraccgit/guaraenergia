@@ -1,9 +1,9 @@
-<svg width="110" height="59" viewBox="0 0 110 59" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M29.5 59C45.7924 59 59 45.7924 59 29.5C59 13.2076 45.7924 0 29.5 0C13.2076 0 0 13.2076 0 29.5C0 45.7924 13.2076 59 29.5 59Z" fill="#064A3C"/>
-<mask id="mask0_302_2" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="5" y="5" width="50" height="49">
-<path d="M29.8987 53.4189C16.4685 53.4189 5.58111 42.71 5.58111 29.5C5.58111 16.2899 16.4685 5.58105 29.8987 5.58105C43.3289 5.58105 54.2163 16.2899 54.2163 29.5C54.2163 42.71 43.3289 53.4189 29.8987 53.4189Z" fill="#FECD45"/>
+<svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="29.5" cy="29.5" r="29.5" fill="#064A3C"/>
+<mask id="mask0_2785_393" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="5" y="5" width="50" height="49">
+<ellipse cx="24.3176" cy="23.9189" rx="24.3176" ry="23.9189" transform="matrix(-1 0 0 1 54.2163 5.58105)" fill="#FECD45"/>
 </mask>
-<g mask="url(#mask0_302_2)">
-<path d="M-26.8421 2.39185H30.7095V58.9999H-26.8421V2.39185Z" fill="#FECD45"/>
+<g mask="url(#mask0_2785_393)">
+<rect width="57.5516" height="56.6081" transform="matrix(-1 0 0 1 30.7094 2.39209)" fill="#FECD45"/>
 </g>
 </svg>

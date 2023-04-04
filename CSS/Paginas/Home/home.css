@@ -422,7 +422,7 @@
         margin: 0%;
     }
     .descricao__cabecalho__aprenda{
-        font-family: var(--MontrealMedium);
+        font-family: var(--MontrealRegular);
         font-size: 18px;
         line-height: 26px;
         margin: 0%;
@@ -447,21 +447,26 @@
         height: 28.563rem;
         width: 29.5vw;
 
-        padding: 1rem;
+        padding: 1.4rem 1.938rem;
 
         background-repeat: no-repeat;
         background-position: center;
     }
     .botao__item__noticias__aprenda{
-        font-family: var(--MontrealMedium);
+        font-family: var(--MontrealRegular);
         font-size: 20px;
+        line-height: 20px;
         margin: 0%;
 
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        width: 26vw;
+        width: 24vw;
+        height: 2.5rem;
+    }
+    .vetor__seta__aprenda{
+        width: 4.563rem;
     }
     #modelo__negocio{
         background-image: url("../../../Assets/Imagens/Imagem/ImagemModeloNegocio.png");
@@ -519,8 +524,11 @@
 
         width: 91vw;
 
-        border-top: 0.7px solid #717171;
+        
         border-bottom: 0.7px solid #717171;
+    }
+    .item__lista__faq:nth-child(1){
+        border-top: 0.7px solid #717171;
     }
     .botao__lista__faq{
         display: flex;
@@ -540,7 +548,7 @@
         background-color: transparent;
         border: none;
 
-        font-family: var(--MontrealMedium);
+        font-family: var(--MontrealRegular);
         font-size: 25px;
         line-height: 40px;
         margin: 0%;
@@ -563,12 +571,12 @@
 
         transition: all .2s ease-in-out;
 
-        padding-bottom: 1rem;
+        padding-bottom: 1.5rem;
     }
     .descricao__lista__faq{
         width: 39.313rem;
 
-        font-family: var(--MontrealMedium);
+        font-family: var(--MontrealRegular);
         font-size: 18px;
         line-height: 33px;
         margin: 0%;

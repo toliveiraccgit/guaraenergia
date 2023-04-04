@@ -99,7 +99,6 @@
     }
     .item__lista__texto__conteudo_nos{
         flex-direction: column;
-        border-top: 0.7px solid #717171;
     }
     .borda__top{
         border: none;

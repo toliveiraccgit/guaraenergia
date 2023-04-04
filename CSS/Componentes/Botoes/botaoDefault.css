@@ -1,16 +1,33 @@
 @media (min-width:0px){
 
-    .botao__default{
+    .botao__default-69{
         font-family: var(--MontrealMedium);
         font-size: var(--font-14);
         color: var(--branco);
 
         background-color: var(--primario-verde);
 
-        padding-top: 1.095rem;
+        padding-top: 1.655rem;
         padding-right: 2.063rem;
         padding-left: 2.063rem;
-        padding-bottom: 1.095rem;
+        padding-bottom: 1.655rem;
+
+        border-radius: 90px;
+        border: none;
+
+        transition: all .2s ease-in-out;
+    }
+    .botao__default-60{
+        font-family: var(--MontrealMedium);
+        font-size: var(--font-14);
+        color: var(--branco);
+
+        background-color: var(--primario-verde);
+
+        padding-top: 1.4rem;
+        padding-right: 2.063rem;
+        padding-left: 2.063rem;
+        padding-bottom: 1.4rem;
 
         border-radius: 90px;
         border: none;

@@ -649,25 +649,25 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        width: 71vw;
+        width: 80vw;
     }
     .descricao__form__contato{
-        font-family: var(--MontrealMedium);
+        font-family: var(--MontrealRegular);
         font-size: 25px;
         margin: 0%;
 
         color: var(--preto);
 
-        width: 31vw;
+        padding-left: 4rem;
+        width: 29vw;
     }
     .form__contato{
         display: flex;
         flex-direction: row;
         align-items: center;
-
     }
     .input__form__contato{
-        font-family: var(--GraphikBold);
+        font-family: var(--MontrealRegular);
         font-size: var(--font-12);
         font-weight: var(--semi-bold);
         line-height: var(--line-25);
@@ -675,22 +675,35 @@
 
         background-color: var(--branco);
 
-        padding-top: 1rem;
+        padding-top: .9rem;
         padding-right: 10rem;
         padding-left: 2.063rem;
-        padding-bottom: 1rem;
+        padding-bottom: .9rem;
 
         border-radius: 90px;
         border: none;
 
         transition: all .2s ease-in-out;
+
+        width: 29.75rem;
+
+        position: relative;
+        right: -4rem;
     }
     #button__black{
       background-color: var(--preto);
+      font-size: 12px;
       position: relative;
       display: flex;
       left: -4.5rem;
+      padding-left: 2.3rem;
+      padding-right: 2.3rem;
 
+      width: 11.313rem;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
     }
     /*---------------Rodape--------------*/
     .rodape{

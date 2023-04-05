@@ -75,6 +75,9 @@
         line-height: 41px;
     }
     /*---------------Como----------------*/
+    .secao__nos{
+        padding-top: 4.375rem;
+    }
     .imagem__como{
         display: none;
     }
@@ -149,6 +152,14 @@
         overflow-x: scroll;
         align-items: flex-start;
     }
+    .secao__lista__conteudo__video::-webkit-scrollbar-track {
+        background: transparent;
+        display: none;   /* color of the tracking area */
+    }
+      
+    .secao__lista__conteudo__video::-webkit-scrollbar{
+        display: none;
+    }
     .lista__conteudo__video{
         width: 205vw;
         justify-content: flex-start;
@@ -157,5 +168,166 @@
     }
     .item__lista__conteudo__video{
         width: 90vw;
+    }
+    .secao__video{
+        padding-bottom: 4.401rem;
+    }
+    /*----------------Aprenda--------------*/
+    .secao__cabecalho__aprenda {
+        padding-top: 4.375rem;
+        gap: 1.875rem;
+    }
+    .descricao__cabecalho__aprenda{
+        width: 90vw;
+    }
+    .lista__noticias__aprenda{
+        flex-direction: column;
+        margin-top: 3.125rem;
+    }
+    .item__noticias__aprenda{
+        width: 90vw;
+        background-size: cover;
+    }
+    .botao__item__noticias__aprenda{
+        width: 76vw;
+    }
+    .vetor__seta__aprenda{
+        width: 5.563rem;
+    }
+    /*------------------Faq------------------*/
+    .secao__faq{
+        margin-top: 4rem;
+    }
+    .secao__cabecalho__faq{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2.063rem;
+        width: 90vw;
+    }
+    .descricao__cabecalho__faq{
+        width: 73vw;
+        font-family: var(--MontrealRegular);
+    }
+    .titulo__cabecalho__faq{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        align-self: flex-end;
+    }
+    .lista__faq{
+        padding-top: 2.125rem;
+        width: 90vw;
+    }
+    .botao__lista__faq{
+        padding-top: 1.875rem;
+        padding-bottom: 1.875rem;
+        padding-right: 3rem;
+        align-items: flex-start;
+        text-align: left;
+
+    }
+    .descricao__lista__faq{
+        width: 90vw;
+    }
+    .conteudo__lista__faq{
+        width: 90vw;
+    }
+    /*---------------Contato-------------*/
+    .secao__contato{
+        padding-top: 2.75rem;
+        padding-bottom: 4.375rem;
+        gap: 4.375rem;
+    }
+    .secao__banner__contato{
+        width: 100vw;
+        padding-left: 1.625rem;
+        padding-right: 1.625rem;
+        padding-bottom: 2.25rem;
+        padding-top: 3rem;
+
+        flex-direction: column;
+        gap: 1.875rem;
+    }
+    .container__banner__contato{
+        width: 90vw;
+        gap: 1.75rem;
+    }
+    .titulo__banner__contato{
+        font-family: var(--MontrealRegular);
+    }
+    .botao__contato{
+        width: 90vw;
+    }
+    .secao__form__contato{
+        width: 90vw;
+        flex-direction: column;
+        gap: 3.125rem;
+    }
+    .descricao__form__contato{
+        padding-left: 0%;
+        width: 92vw;
+    }
+    .form__contato{
+        flex-direction: column;
+        gap: 3.125rem;
+    }
+    .input__form__contato{
+        width: 90vw;
+        position: static;
+    }
+    #button__black{
+        width: 90vw;
+        position: static;
+    }
+    /*---------------Rodape------------*/
+    .rodape{
+        padding-top: 4.625rem;
+    }
+    .container__info__rodape{
+        flex-direction: column-reverse;
+    }
+    .secao__conteudo__rodape{
+        padding-top: 0%;
+        padding-bottom: 4.375rem;
+        flex-direction: column;
+        width: 90vw;
+    }
+    .titulo__conteudo__rodape{
+        font-size: 70px;
+    }
+    .titulo__conteudo__rodape:nth-child(2){
+        align-self: flex-end;
+        text-align: right;
+    }
+    .secao__cabecalho__rodape{
+        width: 90vw;
+        flex-direction: column-reverse;
+        gap: 4.375rem;
+    }
+    .botao__rodape{
+        width: 90vw;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .secao__links__cabecalho{
+        align-self: flex-start;
+    }
+    .lista__links__cabecalho{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 1.25rem;
+    }
+    .link__cabecalho{
+        font-family: var(--MontrealRegular);
+    }
+    .secao__copyright{
+        border: none;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 4.375rem;
+        margin-bottom: 3.438rem;
+        margin-top: 4.375rem;
+        padding-bottom: 0%;
     }
 }

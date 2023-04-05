@@ -717,6 +717,10 @@
 
         padding-top: 5rem;
     }
+    .container__info__rodape{
+        display: flex;
+        flex-direction: column;
+    }
     .secao__conteudo__rodape{
         display: flex;
         flex-direction: row;

@@ -438,6 +438,8 @@
         align-items: top;
         gap: 1.125rem;
 
+        width: 91vw;
+
         margin-top: 3.75rem;
     }
     .item__noticias__aprenda{

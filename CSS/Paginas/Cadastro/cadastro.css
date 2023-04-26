@@ -1,0 +1,370 @@
+@media (min-width:0px){
+
+    .conteudo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #F4F2EC;
+    }
+    .secao__background__cadastro{
+        display: flex;
+        width: 50vw;
+        height: 100vh;
+
+        background-image: url("../../../Assets/Imagens/Imagem/ImagemCadastro.png");
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .secao__formulario{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+
+        width: 50%;
+        height: 100vh;
+        overflow-y: scroll;
+        overflow-x: hidden;
+
+        background-color: #F4F2EC;
+
+        padding-left: 2.5rem;
+        padding-top: 2.5rem;
+        padding-right: 2.5rem;
+        padding-bottom: 6.25rem;
+
+        transition: all .8s ease-in-out;
+    }
+    .secao__formulario::-webkit-scrollbar-track {
+        background: transparent;
+        display: none;   /* color of the tracking area */
+    }
+      
+    .secao__formulario::-webkit-scrollbar{
+        display: none;
+    }
+    .secao__cabecalho__formulario{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        width: 100%
+    }
+    .link__botoes__cabecalho{
+        font-family: var(--MontrealRegular);
+        font-size: var(--font-14);
+
+        transition: all .15s ease-in-out;
+
+        color: var(--preto);
+    }
+    .secao__barra__formulario{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+
+        width: 45vw;
+
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .container__passos___progresso{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.938rem;
+
+        user-select: none;
+
+        cursor: pointer;
+    }
+    .numero__passos{
+        font-family: var(--MontrealRegular);
+        font-size: 15px;
+
+        width: 2.10rem;
+        height: 2.10rem;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        
+        border-radius:50%;
+
+        
+        border: 1px solid #064A3C;
+    }
+    #numero__passo-concluido{
+        background-color: #FECD45;
+        color: #000000;
+        border-color: transparent;
+    }
+    #numero__passo-atual{
+        background-color: #064A3C;
+        color: #FFFFFF;
+    }
+    #numero__passo-2{
+        background-color: transparent;
+        color: #064A3C;
+    }
+    #numero__passo-3{
+        background-color: transparent;
+        color: #064A3C;
+    }
+    .nome__passo___progresso{
+        font-family: var(--MontrealRegular);
+        font-size: 12px;
+        color: #064A3C;
+    }
+    #barra-simulacao{
+        display: none;
+    }
+    #barra-finalizacao{
+        display: none;
+    }
+    select {
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background: url("../../../Assets/Imagens/Vetor/VetorSetaForm.svg") no-repeat;
+        background-position-x: calc(100% - 1rem);
+        background-position-y: 1.3rem;
+        border: 1px solid #333;
+        padding-right: 20px;
+    }
+    .secao__etapas__formulario{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30vw;
+    }
+    .container__titulo__formulario{
+        width: 30vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .titulo__formulario{
+        margin: 0%;
+        font-family: var(--MontrealRegular);
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .formulario__cadastro{
+        width: 30VW;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 1.063rem;
+    }
+    .container__input{
+        width: 30VW;
+    }
+    .input__formulario{
+        background: #FFFFFF;
+        border-radius: 90px;
+        font-family: var(--MontrealMedium);
+        font-size: 12px;
+        line-height: 24px;
+
+        width: 30vw;
+
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-right: 1.125rem;
+        padding-left: 2.063rem;
+
+        border: none;
+    }
+    .span__erro__email{
+        display: none;
+        font-family: var(--MontrealMedium);
+        font-size: 11px;
+        color: #FF1919;
+        padding-left: 2.1rem;
+    }
+    .input__estado{
+        background-image: url("../../../Assets/Imagens/Vetor/VetorSetaForm.svg");
+        background-position: 95%;
+        background-repeat: no-repeat;
+
+    }
+    .option__estado{
+        padding-top: .1rem;
+        padding-bottom: .1rem;
+        border: none;
+    }
+    .texto__termos__form{
+        font-family: var(--MontrealMedium);
+        font-size: 12px;
+        line-height: 16px;
+
+        width: 26vw;
+
+        color: #787878;
+
+        align-self: center;
+    }
+    .texto__form__underline{
+        text-decoration: underline;
+    }
+    .botao__form__cadastro{
+        font-family: var(--MontrealMedium);
+        font-size: 12px;
+        color: var(--branco);
+
+        background-color: #CDCDCD;
+
+        padding-top: 1.4rem;
+        padding-right: 2.063rem;
+        padding-left: 2.063rem;
+        padding-bottom: 1.4rem;
+
+        border-radius: 90px;
+        border: none;
+
+        margin-top: 1.875rem;
+
+        transition: all .2s ease-in-out;
+
+        width: 30vw;
+    }
+    select:focus{
+        outline: none;
+    }
+    .option__filtro{
+        padding: 1rem 0 1rem 1rem;
+    }
+    .container__input-titulo{
+        display: flex;
+        flex-direction: row;
+        gap: 2.5rem;
+    }
+    .input__filtro-data::-webkit-calendar-picker-indicator {
+        display: none;
+        -webkit-appearance: none;
+    }
+    .input__filtro-data:focus, .input__filtro-small:focus, .input__filtro___pagamento:focus{
+        outline: none;
+    }
+    .secao__etapas{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        width: 30vw;
+        height: 29.438rem;
+    }
+    #etapas__formulario__dados{
+        display: flex;
+
+        transition: all .8s ease-in-out;
+
+        position: relative;
+        opacity: 1;
+    }
+    #etapas__formulario__simulacao{
+        display: flex;
+
+        transition: all .8s ease-in-out;
+
+        position: relative;
+        opacity: 0;
+    }
+    #etapas__formulario__finalizacao{
+        display: flex;
+
+        transition: all .8s ease-in-out;
+
+        position: relative;
+        opacity: 0;
+    }
+    .botao__form__simulacao{
+        display: none;
+        background-color: #064A3C;
+        color: #FFFFFF;
+    }
+    .botao__form__finalizacao{
+        display: none;
+        background-color: #064A3C;
+        color: #FFFFFF;
+
+        margin-top: 7rem;
+    }
+    .container__conteudo__simulacao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30vw;
+    }
+    .container__texto__simulacao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .titulo__texto__simulacao{
+        font-family: var(--MontrealRegular);
+        font-size: 20px;
+        color: #000000;
+
+        margin: 0%;
+        margin-top: 2.4rem;
+    }
+    .descricao__texto__simulacao{
+        font-family: var(--MontrealRegular);
+        font-size: 18px;
+        line-height: 26px;
+        color: #6A6A6A;
+
+        margin: 0%;
+        margin-top: 1rem;
+        margin-bottom: 2.75rem;
+
+        width: 24vw;
+
+        text-align: center;
+
+        padding-bottom: 2rem;
+
+        background-image: url("../../../Assets/Imagens/Vetor/VetorLinhaSimulacao.svg");
+        background-position: bottom center;
+        background-repeat: no-repeat;
+    }
+    .container__resultado__simulacao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 30vw;
+    }
+    .valor__resultado__simulacao{
+        font-family: var(--MontrealRegular);
+        font-size: 45px;
+        line-height: 25px;
+        color: #000000;
+    }
+    .subtexto__resultado__simulacao{
+        font-family: var(--MontrealRegular);
+        font-size: 18px;
+        line-height: 26px;
+        color: #6A6A6A;
+
+        margin-top: .5rem;
+    }
+    .container__conteudo__finalizacao{
+        display: flex;
+        width: 80vw;
+        height: 32rem;
+
+        background-color: var(--branco);
+        border-radius: 5px;
+    }
+}

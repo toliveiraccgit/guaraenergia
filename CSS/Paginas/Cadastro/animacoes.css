@@ -1,0 +1,103 @@
+/*--------------------ANIMACOES-------------*/
+@keyframes animaSecaoDados {
+    0%{
+        display: flex;
+        left: 0%;
+        opacity: 1;
+    }
+    100%{
+        display: flex;
+        opacity: 0;
+        left: -100%;
+    }
+}
+@keyframes animaSecaoDadosReverse {
+    0%{
+        display: flex;
+        left: -100%;
+        opacity: 0;
+    }
+    100%{
+        display: flex;
+        opacity: 1;
+        left: 0%;
+    }
+}
+
+@keyframes animaSecaoSimulacao {
+    0%{
+        display: flex;
+        opacity: 0;
+        right: 0%;
+    }
+    100%{
+        opacity: 1;
+        display: flex;
+        right: 100%;
+    }
+}
+@keyframes animaSecaoSimulacaoReverse {
+    0%{
+        display: flex;
+        opacity: 1;
+        right: 100%;
+    }
+    100%{
+        opacity: 0;
+        display: flex;
+        right: 0%;
+    }
+}
+
+
+
+
+
+@keyframes animaAvancaSimulacao {
+    0%{
+        display: flex;
+        opacity: 1;
+        right: 100%;
+    }
+    100%{
+        opacity: 0;
+        display: flex;
+        right: 200%;
+    }
+}
+@keyframes animaVoltaSimulacao {
+    0%{
+        display: flex;
+        opacity: 0;
+        right: 200%;
+    }
+    100%{
+        opacity: 1;
+        display: flex;
+        right: 100%;
+    }
+}
+@keyframes animaSecaoFinalizacao {
+    0%{
+        display: flex;
+        opacity: 0;
+        right: 0%;
+    }
+    100%{
+        opacity: 1;
+        display: flex;
+        right: 200%;
+    }
+}
+@keyframes animaSecaoFinalizacaoReverse {
+    0%{
+        display: flex;
+        opacity: 1;
+        right: 200%;
+    }
+    100%{
+        opacity: 0;
+        display: flex;
+        right: 0%;
+    }
+}

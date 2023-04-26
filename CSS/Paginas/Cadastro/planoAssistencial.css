@@ -1,0 +1,570 @@
+@media (min-width:0px){
+    /*---------------------CABECALHO-------------------*/
+    .cabecalho{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1rem;
+
+        padding-left: 9.25rem;
+        padding-right: 9.25rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+
+        margin-bottom: 4.5rem;
+    }
+    .logo__bem-care{
+        width: 8.772rem;
+        height: 1.5rem;
+    }
+    /*----------------------CONTEUDO---------------------*/
+    .conteudo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding-bottom: 3.75rem;
+
+        width: 100%;
+    }
+    .secao__conteudo___passos{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        width: 200vw;
+    }
+    .container__secoes{
+        width: 100vw;
+
+        overflow-x: hidden;
+    }
+    /*-------------------BARRA-PROGRESSO------------------*/
+    .secao__progresso___compra{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        width: 56.188rem;
+
+        margin-bottom: 3.438rem;
+    }
+    .secao__barra___progresso{
+        width: 100%;
+        height: 0.25rem;
+
+        background-color: #DBDDDE;
+    }
+    .barra__progresso{
+        display: block;
+        width: 0%;
+        height: 0.25rem;
+
+        background-color: var(--primary-pink);
+    }
+    /*-------------------PASSOS-PROGRESSO------------------*/
+    .secao__passos___progresso{
+        width: 61.188rem;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        position: relative;
+        top: -1rem;
+    }
+    .container__passos___progresso{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .container__numero___passo{
+        width: 2rem;
+        height: 2rem;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .numero__passo___progresso{
+        width: 1.4rem;
+        height: 1.4rem;
+
+        border-radius: 50%;
+
+        background-color: #DBDDDE;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-family: 'Gilroy-Bold';
+        font-size: 15px;
+
+        color:#FFFFFF;
+    }
+    .nome__passo___progresso{
+        font-family: 'Gilroy-Medium';
+        font-size: 15px;
+
+        color:#A3A3A3;
+    }
+    .numero__passo___atual{
+        outline: 7px solid #FFE8F3;
+
+        background-color: var(--primary-pink);
+
+        font-family: 'Gilroy-Bold';
+        font-size: 15px;
+
+        color:#FFFFFF;
+    }
+    .nome__passo___atual{
+        font-family: 'Gilroy-Bold';
+        font-size: 15px;
+
+        color:var(--primary-pink);
+    }
+    .primeiro__progresso{
+        background-image: url("../../Assets/Vetores/1.svg");
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .segundo__progresso{
+        background-image: url("../../Assets/Vetores/2.svg");
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .terceiro__progresso{
+        background-image: url("../../Assets/Vetores/3.svg");
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    .quarto__progresso{
+        background-image: url("../../Assets/Vetores/4.svg");
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    /*-------------------DADOS------------------*/
+    .secao__dados{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        width: 100vw;
+
+        position: relative;
+    }
+    .secao__dados___pessoal{
+        display: flex;
+        flex-direction: column;
+        width: 39.79vw;
+
+        border-right: 1px solid #E3E5E6;
+
+        padding-right: 6rem;
+        padding-top: 2.75rem;
+        padding-bottom: 4.875rem;
+    }
+    .titulo__dados___pessoal{
+        font-family: 'Gilroy-SemiBold';
+        font-size: 39px;
+
+        color: var(--primary-blue);
+
+        margin: 0%;
+        margin-bottom: 1.5rem;
+    }
+    .descricao__dados___pessoal{
+        font-family: 'Gilroy-SemiBold';
+        font-size: 16px;
+
+        color: var(--high-medium);
+
+        margin: 0%;
+        margin-bottom: 2.5rem;
+    }
+    .emoji-descricao{
+        position: relative;
+        top: .1rem;
+        left: .4rem;
+    }
+    .secao__input___dados{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .container__input{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .label__input{
+        font-family: 'Gilroy-SemiBold';
+        font-size: 16px;
+
+        color: var(--primary-blue);
+    }
+    .input__dados{
+        border: 1px solid #BBBBBB;
+        border-radius: 8px;
+
+        padding: 1rem;
+
+        font-family: 'Gilroy-SemiBold';
+        font-size: 16px;
+
+        color: #292A2C;
+    }
+    .input__dados:focus{
+        outline: 1px solid #FC1482;;
+    }
+    .input__dados___corretos{
+        background-image: url("../../Assets/Vetores/vetor-input-preenchido.svg");
+        background-position: 97% center;
+        background-repeat: no-repeat;
+    }
+    .input__dados-telefone{
+        width: 14.813rem;
+    }
+    .secao__dados___empresa{
+        display: flex;
+        flex-direction: column;
+        width: 39.79vw;
+
+        padding-left: 6rem;
+        padding-top: 2.75rem;
+        padding-bottom: 4.875rem;
+    }
+    input[type=number]::-webkit-inner-spin-button { 
+        -webkit-appearance: none;
+        
+    }
+    input[type=number] { 
+       -moz-appearance: textfield;
+       appearance: textfield;
+    
+    }
+    .container__botao___avancar{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+        margin-top: 4rem;
+    }
+    .botao__avancar___passos{
+        font-family: 'Gilroy-Bold';
+        font-size: 16px;
+
+        color: #FFFFFF;
+
+        padding-left: 4.125rem;
+        padding-right: 5.875rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+
+        border-radius: 8px;
+        border: none;
+
+        background-color: var(--primary-pink);
+        background-image: url("../../Assets/Setas/seta-direita-branca.svg");
+        background-position: 8.5rem center;
+        background-repeat: no-repeat;
+        transition: .1s all ease-in-out;
+    }
+    /*-----------------PLANOS-PRECOS----------------*/
+    .secao__planos{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        width: 100vw;
+
+        position: relative;
+    }
+    .secao__planos___dados{
+        display: flex;
+        flex-direction: column;
+        width: 39.79vw;
+
+        border-right: 1px solid #E3E5E6;
+
+        padding-right: 6rem;
+        padding-top: 2.75rem;
+        padding-bottom: 4.875rem;
+    }
+    .titulo__planos{
+        font-family: 'Gilroy-SemiBold';
+        font-size: 39px;
+
+        color: var(--primary-blue);
+
+        margin: 0%;
+        margin-bottom: 1.5rem;
+    }
+    .descricao__planos{
+        font-family: 'Gilroy-SemiBold';
+        font-size: 16px;
+
+        color: var(--high-medium);
+
+        margin: 0%;
+        margin-bottom: 2.5rem;
+    }
+    .emoji-dinheiro{
+        width: 1rem;
+        height: 1rem;
+
+        position: relative;
+        top: .1rem;
+        left: .4rem;
+    }
+    /*-----------------DADOS-RECOLHIDOS----------------*/
+    .secao__dados-recolhidos{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .titulo__dados___recolhidos{
+        font-family: 'Gilroy-SemiBold';
+        font-size: 25px;
+
+        color: var(--primary-blue);
+
+        margin: 0%;
+    }
+    .container__dados___recolhidos{
+        display: flex;
+        flex-direction: column;
+        gap: 0.875rem;
+    }
+    .nome__dado___recolhido{
+        font-family: 'Gilroy-Regular';
+        font-size: 16px;
+
+        color: #A3A3A3;
+
+        margin: 0%;
+    }
+    .info__dado___recolhido{
+        font-family: 'Gilroy-SemiBold';
+        font-size: 16px;
+
+        color: var(--primary-blue);
+
+        margin: 0%;
+    }
+    .container__numero___vidas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .titulo__numero___vidas{
+        font-family: 'Gilroy-Regular';
+        font-size: 16px;
+
+        color: #A3A3A3;
+
+        margin: 0%;
+    }
+    .numero__vidas{
+        font-family: 'Gilroy-SemiBold';
+        font-size: 39px;
+
+        color: var(--primary-blue);
+
+        margin: 0%;
+
+        padding-left: 3.5rem;
+
+        background-image: url("../../Assets/Vetores/PlanoPrecos/vetor-vidas.svg");
+        background-position: left center;
+        background-repeat: no-repeat;
+    }
+    .secao__escolha___planos{
+        display: flex;
+        flex-direction: column;
+        width: 39.79vw;
+
+        padding-left: 3rem;
+        padding-top: 2.75rem;
+        padding-bottom: 4.875rem;
+    }
+    .container__input__radio{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-bottom: 1.8rem;
+    }
+    .container__input___check{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        gap: 1.25rem;
+
+        width: 27rem;
+
+        position: relative;
+        top: -2rem;
+    }
+    .container__input___opcoes{
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+    .input__aceitar-termos{
+        all: unset;
+        margin-top: .5rem;
+
+        width: 1.25rem;
+        height: 1.25rem;
+
+        background-color: #E3E5E6;
+        border-radius: 50%;
+
+        border: 2px solid #E8E8E8;
+
+        display: inline-block;
+
+        cursor: pointer;
+    }
+
+    .input__aceitar-termos:checked{
+        background-color: var(--primary-pink);
+        color: var(--primary-pink);
+
+        border: 2px solid var(--primary-pink);
+
+        background-image: url("../../Assets/Vetores/vetor-input-preenchido.svg");
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .secao__opcoes___planos{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .container__opcoes___planos{
+        display: flex;
+        flex-direction: column;
+
+        border: 1px solid #E3E5E6;
+        border-radius: 8px;
+
+        padding-top: 1.5rem;
+        padding-bottom: 1.813rem;
+        padding-left: 1.813rem;
+        padding-right: 1.063rem;
+    }
+    .titulo__plano___opcoes{
+        font-family: 'Gilroy-SemiBold';
+        font-size: 25px;
+
+        color: var(--primary-blue);
+
+        margin: 0%;
+        margin-bottom: 1.188rem;
+
+        padding-right: 1.8rem;
+    }
+    .lista__beneficios___opcoes{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .item__lista___beneficios{
+        font-family: 'Gilroy-Medium';
+        font-size: 16px;
+
+        color: var(--high-medium);
+
+        margin: 0%;
+
+        padding-left: 1.5rem;
+
+        background-image: url("../../Assets/Vetores/PlanoPrecos/vetor-check-lista.svg");
+        background-repeat: no-repeat;
+        background-position: left center;
+    }
+    .container__valor___plano{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+
+        margin-top: 4.5rem;
+    }
+    .titulo__valor___plano{
+        font-family: 'Gilroy-Regular';
+        font-size: 16px;
+
+        color: #A3A3A3;
+
+        margin: 0%;
+    }
+    .valor__plano{
+        font-family: 'Gilroy-SemiBold';
+        font-size: 39px;
+
+        color: var(--primary-blue);
+
+        margin: 0%;
+
+        padding-left: 3.5rem;
+
+        background-image: url("../../Assets/Vetores/PlanoPrecos/vetor-valor.svg");
+        background-position: left center;
+        background-repeat: no-repeat;
+    }
+    .container__botoes___planos{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 6.656rem;
+
+        margin-top: 12.375rem;
+    }
+    .botao__regredir___passos-planos{
+        border: none;
+        background-color: transparent;
+
+        color: var(--primary-pink);
+
+        font-family: 'Gilroy-Bold';
+        font-size: 16px;
+
+        background-image: url("../../Assets/Setas/seta-esquerda-rosa.svg");
+        background-position: left center;
+        background-repeat: no-repeat;
+
+        padding-left: 2rem;
+    }
+    .botao__avancar___passos-planos{
+        font-family: 'Gilroy-Bold';
+        font-size: 16px;
+
+        color: #FFFFFF;
+
+        padding-left: 4.125rem;
+        padding-right: 5.875rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        
+        border-radius: 8px;
+        border: none;
+        
+        background-color: var(--primary-pink);
+        background-image: url("../../Assets/Setas/seta-direita-branca.svg");
+        background-position: 8.5rem center;
+        background-repeat: no-repeat;
+
+        transition: .1s all ease-in-out;
+    }
+}

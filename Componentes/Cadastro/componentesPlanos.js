@@ -165,4 +165,6 @@ export class Cadastro {
         botaoAvancaSimulacao.style.display = 'none'
         botaoAvancaFinalizacao.style.display = 'block'
     }
+
+    
 }

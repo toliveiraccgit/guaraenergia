@@ -31,3 +31,5 @@ function voltaPassosDados(){
     barraDados.style.display = 'flex'
     barraSimulacao.style.display = 'none'
 }
+
+

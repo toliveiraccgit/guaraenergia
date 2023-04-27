@@ -296,6 +296,10 @@
         border-radius: 15px;
         position: relative;
         top: -1rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
     .secao__rodape__nos{
         display: flex;

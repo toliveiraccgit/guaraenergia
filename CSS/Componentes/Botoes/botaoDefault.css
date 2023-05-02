@@ -33,6 +33,11 @@
         border: none;
 
         transition: all .2s ease-in-out;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
     .botao__default:hover{
         background-color: var(--secundario-verde);

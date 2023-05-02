@@ -1,12 +1,13 @@
-const modalMenu = document.querySelector('.secao__modal__menu');
-const modalConteudoMenu = document.querySelector('.container__conteudo__modal__menu');
+const conteudoMenu = document.querySelector('.secao__menu__aberto__mobile');
 
 function abreMenu(){
-    modalMenu.style.display = ` flex `
-    modalConteudoMenu.style.display = ` flex `
+    conteudoMenu.style.visibility = ` visible `
+    conteudoMenu.style.opacity = ` 1 `
+    conteudoMenu.style.top = ' 0rem '
 }
 
 function fechaMenu(){
-    modalMenu.style.display = ` none `
-    modalConteudoMenu.style.display = ` none `
+    conteudoMenu.style.visibility = ` hidden `
+    conteudoMenu.style.opacity = ` 0 `
+    conteudoMenu.style.top = ' -1rem '
 }

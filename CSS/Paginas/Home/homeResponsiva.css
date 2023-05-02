@@ -18,6 +18,9 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
+
+        border: none;
+        background-color: transparent;
     }
     .secao__banner{
         background-size: cover;
@@ -26,7 +29,7 @@
         background-repeat: no-repeat;
     }
     .secao__conteudo__banner{
-        padding-top: 3.625rem;
+        padding-top: 7.625rem;
         padding-left: 1.563rem;
         padding-right: 1.563rem;
 
@@ -52,6 +55,58 @@
     .botao__banner__mobile{
         width: 90vw;
         font-size: 13px;
+    }
+    /*-------------MENU-MOBILE-----------*/
+    .secao__menu__aberto__mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        padding-top: 1.281rem;
+        padding-bottom: 1.281rem;
+        padding-left:  1.563rem;
+        padding-right:  1.563rem;
+
+
+        position: fixed;
+        top: -1rem;
+
+        width: 100vw;
+        height: 100vh;
+
+        background-color: black;
+        z-index: 30000;
+
+        visibility: hidden;
+        opacity: 0;
+
+        transition: all .2s ease-in-out;
+    }
+    .secao__cabecalho__menu__mobile{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 86vw;
+    }
+    .botao__fecha__menu__mobile{
+        background-color: transparent;
+        color: none;
+        border: none;
+    }
+    .secao__links__menu__mobile{
+        display: flex;
+        flex-direction: column;
+        width: 86vw;
+        align-items: flex-start;
+    }
+    .lista__links__menu__mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2.5rem;
+    }
+    .botao__menu__aberto{
+        width: 86vw;
     }
     /*---------------Sobre------------*/
     .secao__sobre{

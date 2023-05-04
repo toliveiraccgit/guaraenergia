@@ -86,7 +86,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        width: 86vw;
+        width: 90vw;
     }
     .botao__fecha__menu__mobile{
         background-color: transparent;
@@ -96,7 +96,7 @@
     .secao__links__menu__mobile{
         display: flex;
         flex-direction: column;
-        width: 86vw;
+        width: 90vw;
         align-items: flex-start;
     }
     .lista__links__menu__mobile{
@@ -106,7 +106,7 @@
         gap: 2.5rem;
     }
     .botao__menu__aberto{
-        width: 86vw;
+        width: 90vw;
     }
     /*---------------Sobre------------*/
     .secao__sobre{

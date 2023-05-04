@@ -3,6 +3,9 @@
     .main{
         border: none;
     }
+    .secao__menu__aberto__mobile{
+        display: none;
+    }
     /*-----------------Banner----------------*/
     #logo__mobile{
         display: none;

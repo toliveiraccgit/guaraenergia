@@ -543,6 +543,10 @@
 
         
         border-bottom: 0.7px solid #717171;
+        
+    }
+    .item__lista__faq:last-child{
+        border-bottom: none;
     }
     .item__lista__faq:nth-child(1){
         border-top: 0.7px solid #717171;

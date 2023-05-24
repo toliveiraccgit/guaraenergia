@@ -1,0 +1,212 @@
+@media (min-width:0px) and (max-width:1024px){
+    .conteudo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*--------------SECAO-BACKGROUND--------------*/
+    #secao__background__cadastro_desktop{
+        display: none;
+    }
+    #secao__cabecalho__formulario__desktop{
+        display: none;
+    }
+    #container__titulo__formulario__desktop{
+        display: none;
+    }
+    #secao__cabecalho__formulario__mobile{
+        display: flex;
+        width: 94%;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    #container__titulo__formulario__mobile{
+        display: block;
+        width: 94%;
+        margin-top: 4.213rem;
+        margin-bottom: 4.313rem;
+    }
+    #secao__background__cadastro__mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+    }
+    .imagem__background__cadastro__desktop{
+        display: none;
+    }
+    .container__botao__mobile{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        border: none;
+        background-color: transparent;
+    }
+    .imagem__background__cadastro{
+        width: 100%;
+    }
+    /*-------------MENU-MOBILE-----------*/
+    .secao__menu__aberto__mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 1.281rem;
+        padding-bottom: 1.281rem;
+        padding-left:  1.563rem;
+        padding-right:  1.563rem;
+
+
+        position: fixed;
+        top: -1rem;
+
+        width: 100vw;
+        height: 100vh;
+
+        background-color: black;
+        z-index: 30000;
+
+        visibility: hidden;
+        opacity: 0;
+
+        transition: all .2s ease-in-out;
+    }
+    .secao__cabecalho__menu__mobile{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 90vw;
+    }
+    .botao__fecha__menu__mobile{
+        background-color: transparent;
+        color: none;
+        border: none;
+    }
+    .secao__links__menu__mobile{
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        align-items: flex-start;
+    }
+    .lista__links__menu__mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2.5rem;
+    }
+    .botao__menu__aberto{
+        width: 90vw;
+    }
+    .secao__links__cabecalho{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .lista__links__cabecalho{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1.875rem;
+    }
+    .link__cabecalho{
+        font-family: var(--MontrealRegular);
+        font-size: var(--font-14);
+        font-weight: 500;
+
+        transition: all .15s ease-in-out;
+    }
+    .link__cabecalho:hover{
+        color:#A4A4A4;
+
+        transition: all .15s ease-in-out;
+    }
+    .secao__botoes__cabecalho{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1.563rem;
+    }
+    .link__botoes__cabecalho{
+        font-family: var(--MontrealRegular);
+        font-size: var(--font-14);
+
+        transition: all .15s ease-in-out;
+
+    }
+    .link__botoes__cabecalho:hover{
+        color:#A4A4A4;
+
+        transition: all .15s ease-in-out;
+    }
+    /*---------------SECAO-FORMULARIO-------------*/
+    .secao__formulario{
+        width: 100vw;
+        align-items: center;
+    }
+    #secao__formulario{
+        overflow-y:visible;
+        overflow-x: hidden;
+        height: 100%;
+    }
+    .secao__barra__formulario{
+        width: 100%;
+    }
+    .container__passos___progresso{
+        gap: 0.563rem;
+        overflow-x: visible;
+    }
+    .nome__passo___progresso{
+        font-size: 10px;
+    }
+    .numero__passos{
+        width: 1.563rem;
+        height: 1.563rem;
+    }
+    .secao__etapas{
+        width: 90vw;
+    }
+    .secao__etapas__formulario{
+        width: 90vw;
+    }
+    .formulario__cadastro{
+        width: 90vw;
+    }
+    .container__input{
+        width: 90vw;
+    }
+    .input__formulario{
+        width: 90vw;
+    }
+    .input__arquivo{
+        width: 90vw;
+    }
+    .input__arquivo__personalizado{
+        width: 90vw;
+    }
+    .texto__termos__form{
+        width: 90vw;
+    }
+    .botao__form__cadastro{
+        width: 90vw;
+        margin-top: 2.125rem;
+    }
+    .container__conteudo__simulacao{
+        width: 100vw;
+    }
+    .descricao__texto__simulacao{
+        width: auto;
+        font-size: 18px;
+    }
+    .container__resultado__simulacao{
+        width: auto;
+    }
+    .container__conteudo__finalizacao{
+        width: 90vw;
+    }
+    .botao__form__finalizacao{
+        margin-top: 4.375rem;
+        display: none;
+    }
+}

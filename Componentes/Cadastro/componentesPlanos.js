@@ -1,6 +1,7 @@
 export class Cadastro {
     constructor() {
-        this.secaoBackgroundCadastro = document.querySelector('.secao__background__cadastro')
+        this.imagemBackgroundCadastro = document.querySelector('.imagem__background__cadastro__desktop')
+        this.secaoBackgroundCadastro = document.querySelector('#secao__background__cadastro_desktop')
         this.secaoFormulario = document.querySelector('.secao__formulario')
         /*------------------------DADOS---------------------*/
         this.secaoDados = document.querySelector('#etapas__formulario__dados')
@@ -91,9 +92,6 @@ export class Cadastro {
         secaoSimulacao.style.animation = ' animaSecaoSimulacaoReverse .8s ease-in-out forwards'
         secaoFinalizacao.style.animation = ' animaSecaoFinalizacaoReverse .8s ease-in-out forwards'
 
-        secaoBackgroundCadastro.style.display = ' block '
-        secaoFormulario.style.width = ' 50% '
-
         const barraDados = this.barraDados
         const barraSimulacao = this.barraSimulacao
         const barraFinalizacao = this.barraFinalizacao
@@ -120,8 +118,14 @@ export class Cadastro {
         secaoSimulacao.style.animation = ' animaVoltaSimulacao .8s ease-in-out forwards'
         secaoFinalizacao.style.animation = ' animaSecaoFinalizacaoReverse .8s ease-in-out forwards'
 
-        secaoBackgroundCadastro.style.display = ' block '
-        secaoFormulario.style.width = ' 50% '
+        const larguraBody = screen.width
+
+        if(larguraBody >= 1025){
+            
+            secaoBackgroundCadastro.style.display = 'block'
+            secaoFormulario.style.width = '50%'
+
+        }
 
         const barraSimulacao = this.barraSimulacao
         const barraFinalizacao = this.barraFinalizacao

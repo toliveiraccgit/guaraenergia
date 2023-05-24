@@ -772,6 +772,12 @@
         justify-content: space-between;
         width: 91vw;
     }
+    .secao__botoes__rodape{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1.563rem;
+    }
     .secao__copyright{
         display: flex;
         flex-direction: row;

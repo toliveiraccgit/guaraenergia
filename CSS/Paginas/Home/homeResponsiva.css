@@ -383,6 +383,7 @@
     }
     .link__cabecalho{
         font-family: var(--MontrealRegular);
+        font-size: 22px;
     }
     .secao__copyright{
         border: none;

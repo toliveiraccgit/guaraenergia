@@ -112,7 +112,7 @@
     }
     .link__cabecalho{
         font-family: var(--MontrealRegular);
-        font-size: var(--font-14);
+        font-size: 22px;
         font-weight: 500;
 
         transition: all .15s ease-in-out;

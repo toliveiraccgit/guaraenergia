@@ -329,6 +329,7 @@
         align-items: flex-start;
         gap: 3.75rem;
     }
+    
     .titulo__conteudo__rodape__nos{
         font-family: var(--MontrealRegular);
         font-size: 25px;
@@ -423,7 +424,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        gap: 3.75rem;
+        gap: 0;
         width: 91vw;
 
         padding-top: 6.875rem;
@@ -434,6 +435,13 @@
         font-family: var(--MontrealRegular);
         font-size: 25px;
         margin: 0%;
+        margin-bottom: 3.75rem;
+    }
+    .container__info__cabecalho__aprenda{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5rem;
     }
     .descricao__cabecalho__aprenda{
         font-family: var(--MontrealRegular);

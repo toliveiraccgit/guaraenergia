@@ -222,8 +222,9 @@
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
     }
-    .imagem__nos{
+    .imagem__como{
         width: 47%;
+        border-radius: 15px 0px 0px 0px;
     }
     .secao__texto__conteudo__nos{
         display: flex;

@@ -83,6 +83,7 @@
         background-color: transparent;
         color: none;
         border: none;
+        width: 3rem;
     }
     .secao__links__menu__mobile{
         display: flex;

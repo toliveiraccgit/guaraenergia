@@ -528,10 +528,6 @@
         color: var(--preto);
 
         width: 35.688rem;
-        
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.2s ease-out;
     }
     .titulo__cabecalho__faq{
         font-family: var(--MontrealMedium);
@@ -710,6 +706,7 @@
         font-size: var(--font-12);
         font-weight: var(--semi-bold);
         line-height: var(--line-25);
+        letter-spacing: .06rem;
         color: #A4A4A4;
 
         background-color: var(--branco);

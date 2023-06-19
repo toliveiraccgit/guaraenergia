@@ -528,6 +528,10 @@
         color: var(--preto);
 
         width: 35.688rem;
+        
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
     }
     .titulo__cabecalho__faq{
         font-family: var(--MontrealMedium);
@@ -594,15 +598,19 @@
         transition: all .2s ease-in-out;
     }
     .conteudo__lista__faq{
-        display: none;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height .2s ease-in-out;
+        width: 100%;
+
+        transition: all .2s ease-in-out;
+    }
+    .container__conteudo__lista__faq{
+        display: flex;
         flex-direction: row;
         align-items: flex-end;
         justify-content: flex-end;
-        width: 91vw;
-
-        transition: all .2s ease-in-out;
-
-        padding-bottom: 1.5rem;
+        padding-bottom: 1.813rem;
     }
     .descricao__lista__faq{
         width: 39.313rem;

@@ -250,6 +250,17 @@
     .vetor__seta__aprenda{
         width: 5.563rem;
     }
+    .secao__container__modal__noticias{
+        width: 90vw;
+        height: 90vh;
+    }
+    .secao__conteudo__modal__noticias{
+        padding-left: 2.188rem;
+    }
+    .container__texto__modal__noticias{
+        padding-right: 2.188rem;
+    }
+
     /*------------------Faq------------------*/
     .secao__faq{
         margin-top: 4rem;

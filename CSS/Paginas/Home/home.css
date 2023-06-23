@@ -42,7 +42,7 @@
 
         width: 100vw;
 
-        position: absolute;
+        position: fixed;
 
         transition: all .25s ease-in-out;
         z-index: 20000;
@@ -469,6 +469,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-align: left;
         justify-content: flex-end;
         height: 28.563rem;
         
@@ -477,6 +478,10 @@
 
         background-repeat: no-repeat;
         background-position: center;
+
+        background-color: transparent;
+        border: none;
+        color: #FFFFFF;
     }
     .botao__item__noticias__aprenda{
         font-family: var(--MontrealRegular);
@@ -503,6 +508,115 @@
     #projetos{
         background-image: url("../../../Assets/Imagens/Imagem/ImagemProjetos.png");
     }
+
+    .secao__modal__noticias{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        position: fixed;
+        top: 0;
+
+        z-index: 10000000;
+
+        width: 100vw;
+        height: 100vh;
+
+        background-color: rgba(0,0,0,0.4);
+
+        transition: all .3s ease-in-out;
+    }
+    .secao__container__modal__noticias{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 70vw;
+        height: 65vh;
+
+        background-color: #FFFFFF;
+
+        border-radius: .5rem;
+    }
+    .secao__conteudo__modal__noticias{
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        padding-left: 5.75rem;
+        padding-top: 2.188rem;
+        padding-right: 2.188rem;
+        padding-bottom: 1.938rem;
+
+        overflow-y: hidden;
+        overflow-x: hidden;
+
+        opacity: 0;
+
+        animation: animaConteudoModal .3s ease-in-out forwards;
+    }
+    @keyframes animaConteudoModal {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    .botao__fecha__modal__noticias{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+
+        background-color: transparent;
+        border: none;
+    }
+    .titulo__cabecalho__modal__noticias{
+        font-family: var(--MontrealMedium);
+        font-size: 25px;
+        line-height: 48px;
+        color: #000000;
+        margin-bottom: 1.563rem;
+    }
+    .container__texto__modal__noticias{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.688rem;
+        width: 98%;
+        height: 72%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        overscroll-behavior: contain;
+        
+        padding-right: 8.438rem;
+        scrollbar-width: thin;
+        scrollbar-color: black white;
+    }
+    .container__texto__modal__noticias::-webkit-scrollbar {
+        width: 3px;
+    }
+      
+    .container__texto__modal__noticias::-webkit-scrollbar::-webkit-scrollbar-track {
+        background: transparent;
+    }
+      
+    .container__texto__modal__noticias::-webkit-scrollbar-thumb {
+        background-color: black;
+        border-radius: 10px;
+        border: none;
+    }
+    .texto__modal__noticias{
+        margin: 0%;
+        font-family: var(--MontrealRegular);
+        font-size: 18px;
+        line-height: 33px;
+        color: #6A6A6A;
+    }
+
     /*-----------------FAQ---------------*/
     .secao__faq{
         display: flex;

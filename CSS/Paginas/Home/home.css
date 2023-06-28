@@ -32,8 +32,8 @@
         align-items: center;
         justify-content: space-between;
 
-        padding-top: 1.281rem;
-        padding-bottom: 1.281rem;
+        padding-top: .8rem;
+        padding-bottom: .8rem;
         padding-left: 3.75rem;
         padding-right: 3.75rem;
 
@@ -223,26 +223,26 @@
         border-top-right-radius: 1rem;
     }
     .imagem__como{
-        width: 47%;
-        height: fit-content;
+        width: 42%;
         border-radius: 15px 0px 0px 0px;
     }
     .secao__texto__conteudo__nos{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        width: 47%;
+        justify-content: space-around;
+        width: 55%;
 
-        padding-top: 5rem;
+        padding-top: .4rem;
         padding-right: 3.75rem;
-        padding-bottom: 2.438rem;
+        padding-bottom: .4rem;
     }
     .container__texto__conteudo__nos{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        gap: 1.813rem;
-        margin-bottom: 4.063rem;
+        gap: .2rem;
+        margin-bottom: .4rem;
     }
     .titulo__texto__conteudo__nos{
         font-family: var(--MontrealMedium);
@@ -280,8 +280,8 @@
         margin: 0%;
         width: 40%;
 
-        padding-top: 1.75rem;
-        padding-bottom: 5.625rem;
+        padding-top: .6rem;
+        padding-bottom: .6rem;
     }
     .descricao__item__lista__texto__conteudo__nos{
         font-family: var(--MontrealMedium);
@@ -294,8 +294,8 @@
         color: #6A6A6A;
         width: 45%;
 
-        padding-top: 1.75rem;
-        padding-bottom: 1.625rem;
+        padding-top: .6rem;
+        padding-bottom: .6rem;
     }
     .borda__bottom{
         border-bottom: 0.7px solid #717171;

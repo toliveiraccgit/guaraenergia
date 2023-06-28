@@ -408,14 +408,14 @@
     }
 }
 
-@media (min-width:1025px) and (max-width:1439px){
+@media (min-width:1025px) and (max-width:1600px){
 
     .imagem__como{
-        width: 29%;
+        width: 23%;
         height: fit-content;
     }
     .secao__texto__conteudo__nos{
-        width: 67%;
+        width: 74%;
     }
     .titulo__item__lista__texto__conteudo__nos{
         padding-bottom: 0%;
@@ -428,10 +428,11 @@
         gap: 1rem;
     }
     .titulo__item__lista__texto__conteudo__nos{
-        padding-top: 1.25rem;
+        padding-top: .4rem;
     }
     .descricao__item__lista__texto__conteudo__nos{
-        padding-top: 1.25rem;
+        padding-top: .4rem;
+        padding-bottom: .4rem;
     }
 }
 @media (min-width:1025px) and (max-width:1282px){

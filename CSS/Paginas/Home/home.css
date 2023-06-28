@@ -224,6 +224,7 @@
     }
     .imagem__como{
         width: 47%;
+        height: fit-content;
         border-radius: 15px 0px 0px 0px;
     }
     .secao__texto__conteudo__nos{
